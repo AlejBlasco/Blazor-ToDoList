@@ -1,3 +1,51 @@
+body {
+    background: linear-gradient(135deg, #00c6ff, #0072ff); /* Green-blue gradient */
+    min-height: 100vh; /* Ensure body takes at least the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 50px; /* Rounded buttons */
+}
+    .btn .badge {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+    }
+.card-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+    .card-body ul li {
+        border: 1px solid lightgray; /* Light gray rounded border */
+        border-radius: 10px; /* Rounded corners */
+        padding: 15px; /* Add padding inside the div */
+        margin-bottom: 10px; /* Space between items */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        .card-body ul li .btn {
+            margin: 0 5px; /* Space between buttons */
+        }
+footer .alert{
+    position:fixed;
+}
+.alert-dismissible {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    /*max-width: 300px;*/
+}
+
 h1:focus {
     outline: none;
 }
